@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding: 50px 10% 0 10%;
+}
+
+.result {
+    padding: 50px 10% 0 10%;
+    color: red;
+}
+
+.box {
+    padding: 50px 25% 0 25%;
+    display: flex;
+    height: 300px;
+}
+.left {
+    padding: 30px;
+    border: 5px solid blue;
+    flex-basis: 300px;
+    /*background-color: yellow;*/
+    /* flex-basis定义该项目在分配主轴空间之前提前获得200px的空间 */
+    flex-grow: 0;
+}
+
+.middle {
+    padding: 30px;
+    border: 5px solid blue;
+    flex-basis: 300px;
+    /*background-color: yellow;*/
+    /* flex-basis定义该项目在分配主轴空间之前提前获得200px的空间 */
+    flex-grow: 0;
+}
+
+.right {
+    padding: 30px;
+    border: 5px solid red;
+    /* flex-grow定义main占满剩余空间 */
+    flex-grow: 0;
+    flex-basis: 300px;
+    margin-left: 200px;
+}
+
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.buttom_left {
+    display: block;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
